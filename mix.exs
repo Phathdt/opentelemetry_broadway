@@ -47,7 +47,7 @@ defmodule OpentelemetryBroadway.MixProject do
   defp deps do
     [
       {:broadway, "~> 1.0", optional: true},
-      {:broadway_rabbitmq, "~> 0.7.0", optional: true},
+      {:broadway_rabbitmq, "~> 0.8.0", optional: true},
       {:dialyxir, "~> 1.1", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.28.0", only: [:dev], runtime: false},
       {:opentelemetry, "~> 1.0", only: [:dev, :test]},
